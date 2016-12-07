@@ -1,0 +1,82 @@
+*{
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+body{
+  background: #EDEFEC;
+  text-align: center;
+
+
+}
+h1,h2{
+  margin-top: 50px;
+}
+.subheadone{
+  font-size: 15px;
+}
+.subheadtwo{
+  font-size: 8px;
+  margin-top: 5px;
+}
+.footerone{
+  background-color: #FCFCFC;
+  border: 0.5px solid black;
+  font-size: 10px;
+  padding: 5px;
+  margin: 0 auto;
+  width: 10%;
+  margin-top: 10px;
+
+
+
+}
+.picone{
+  background-image: url(../img/san-francisco.jpg);
+  /*display: inline-block;*/
+}
+.pictwo{
+  background-image: url(../img/new-york.jpg);
+  /*display: inline-block;*/
+}
+.picthree{
+  background-image: url(../img/london.jpg);
+  /*display: inline-block;*/
+}
+.picfour{
+  background-image: url(../img/napa.jpg);
+  /*display: inline-block;*/
+}
+.picfive{
+  background-image: url(../img/sonoma.jpg);  /*display: inline-block;*/
+}
+.picsix{
+  background-image: url(../img/san-francisco-2.jpg);
+
+  /*display: inline-block;*/
+}
+.picone, .pictwo,.picthree,.picfour, .picfive, .picsix {
+  background-size: cover;;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+}
+
+.firstrow, .secondrow{
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  /*width: 100%;*/
+
+}
+
+@media (max-width:500px){
+.firstrow, .secondrow {
+flex-wrap: wrap;
+width:100%;
+}
+}
